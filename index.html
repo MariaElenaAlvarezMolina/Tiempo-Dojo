@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="nav">
+            <h1>DojoWeather</h1>
+            <ul>
+                <li><a href="#" onclick="display_alert()">Burbank</a></li>
+                <li><a href="#" onclick="display_alert()">Chicago</a></li>
+                <li><a href="#" onclick="display_alert()">Dallas</a></li>
+            </ul>
+        </div>
+    </div>
+    <main>
+        <div class="sanjose">
+            <h2>San Jose</h2>
+            <form>
+                <label>show temperature in</label>
+                <select onchange="changeTemperature(this)">
+                    <option value="C">°C</option>
+                    <option value="F">°F</option>
+                </select>
+            </form>
+        </div>
+        <div class="week">
+            <div class="days">
+                <h3>Today</h3>
+                <img src="images/some_rain.png" alt="some-rain" class="image">
+                <p>some rain</p>
+                <div class="temperature">
+                    <p id="temp1" class="t-max">24°</p>
+                    <p id="temp2" class="t-min">18°</p>
+                </div>
+            </div>
+            <div class="days">
+                <h3>Tomorrow</h3>
+                <img src="images/some_sun.png" alt="some-sun" class="image">
+                <p>some sun</p>
+                <div class="temperature">
+                    <p id="temp3" class="t-max">27°</p>
+                    <p id="temp4" class="t-min">19°</p>
+                </div>
+            </div>
+            <div class="days">
+                <h3>Friday</h3>
+                <img src="images/some_clouds.png" alt="some-clouds" class="image">
+                <p>some clouds</p>
+                <div class="temperature">
+                    <p id="temp5" class="t-max">21°</p>
+                    <p id="temp6" class="t-min">16°</p>
+                </div>
+            </div>
+            <div class="days">
+                <h3>Saturday</h3>
+                <img src="images/some_sun.png" alt="some-sun" class="image">
+                <p>some sun</p>
+                <div class="temperature">
+                    <p id="temp7" class="t-max">26°</p>
+                    <p id="temp8" class="t-min">21°</p>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="cookies">
+                <img src="images/cookie.png" alt="cookie">
+                <div class="alert">
+                    <h4>Stop! Cookie time</h4>
+                    <p class="p">We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="#">Read more...</a></p>
+                </div>
+                <button class="btn" onclick="dismissCookie()">I Accept</button>
+            </div>
+        </footer>
+    <main>
+    <script src="script.js"></script>
+</body>
+</html>

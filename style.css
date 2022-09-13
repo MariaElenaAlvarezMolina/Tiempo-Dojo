@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+}
+.header {
+    background-color: lightblue;
+    color: white;
+}
+.nav {
+    width: 800px;
+    height: 70px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul {
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+    padding-right: 30px;
+}
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+h1 {
+    font-size: 35px;
+}
+.sanjose {
+    width: 800px;
+    height: 70px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+form {
+    font-weight: bold;
+}
+.week {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.days {
+    background-color: rgb(230, 227, 227);
+    padding: 18px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+    margin-top: 20px;
+}
+.image {
+    width: 120px;
+    border-radius: 50%;
+}
+h3 {
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+p {
+    font-weight: bold;
+    padding-top: 15px;
+}
+.temperature {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    font-size: 25px;
+}
+.t-max {
+    color: rgb(211, 4, 4);
+}
+.t-min {
+    color: rgb(59, 141, 168)
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.cookies {
+    width: 770px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(230, 227, 227);
+    border: 2px solid black;
+    padding: 15px;
+}
+.alert {
+    width: 520px;
+}
+h4 {
+    font-size: 18px;
+}
+.p {
+    font-weight: lighter;
+}
+.btn {
+    background-color: lightblue;
+    font-weight: bold;
+    border: 2px solid black;
+    -webkit-box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.75);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
